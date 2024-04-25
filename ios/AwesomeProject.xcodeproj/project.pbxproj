@@ -14,6 +14,10 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-AwesomeProject-AwesomeProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-AwesomeProject-AwesomeProjectTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		FD387A4115EB4F81836539BF /* Gesta-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 768DDF87C06F4E22BD7E2E39 /* Gesta-Bold.ttf */; };
+		451F4CE7F58B4ACE891F7791 /* Gesta-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AB2845EE67584A6D887CEC6D /* Gesta-Medium.ttf */; };
+		461B3FAC60E64DAA9BAD71AD /* Gesta-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E6BFCD6D490140C1883A9682 /* Gesta-Regular.ttf */; };
+		F167F12A6E3D44AAAE27680B /* Campton-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 97F830A0DEA54296A553671C /* Campton-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = AwesomeProject/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-AwesomeProject-AwesomeProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeProject-AwesomeProjectTests.release.xcconfig"; path = "Target Support Files/Pods-AwesomeProject-AwesomeProjectTests/Pods-AwesomeProject-AwesomeProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		768DDF87C06F4E22BD7E2E39 /* Gesta-Bold.ttf */ = {isa = PBXFileReference; name = "Gesta-Bold.ttf"; path = "../src/assets/fonts/Gesta-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		AB2845EE67584A6D887CEC6D /* Gesta-Medium.ttf */ = {isa = PBXFileReference; name = "Gesta-Medium.ttf"; path = "../src/assets/fonts/Gesta-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E6BFCD6D490140C1883A9682 /* Gesta-Regular.ttf */ = {isa = PBXFileReference; name = "Gesta-Regular.ttf"; path = "../src/assets/fonts/Gesta-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		97F830A0DEA54296A553671C /* Campton-Medium.ttf */ = {isa = PBXFileReference; name = "Campton-Medium.ttf"; path = "../src/assets/fonts/Campton-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +130,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				04321CAC2F524E7E8E65CB44 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +156,18 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		04321CAC2F524E7E8E65CB44 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				768DDF87C06F4E22BD7E2E39 /* Gesta-Bold.ttf */,
+				AB2845EE67584A6D887CEC6D /* Gesta-Medium.ttf */,
+				E6BFCD6D490140C1883A9682 /* Gesta-Regular.ttf */,
+				97F830A0DEA54296A553671C /* Campton-Medium.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -243,6 +264,10 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				FD387A4115EB4F81836539BF /* Gesta-Bold.ttf in Resources */,
+				451F4CE7F58B4ACE891F7791 /* Gesta-Medium.ttf in Resources */,
+				461B3FAC60E64DAA9BAD71AD /* Gesta-Regular.ttf in Resources */,
+				F167F12A6E3D44AAAE27680B /* Campton-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

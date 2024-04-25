@@ -1,0 +1,21 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/Campton-Medium.ttf",
+      "sha1": "fc67c8c0a8decfeeb11d7cfc2b3785b7fda3fe1e"
+    },
+    {
+      "path": "src/assets/fonts/Gesta-Bold.ttf",
+      "sha1": "59c54cd8ec84f2f888f309af738747066ec65348"
+    },
+    {
+      "path": "src/assets/fonts/Gesta-Medium.ttf",
+      "sha1": "0f7a1736426bb7f549ab805c9ef60af932b09805"
+    },
+    {
+      "path": "src/assets/fonts/Gesta-Regular.ttf",
+      "sha1": "f2d3e154bb7eff56829e78c3b601329b0aa61eee"
+    }
+  ]
+}
